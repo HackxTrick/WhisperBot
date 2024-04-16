@@ -20,7 +20,13 @@ db = {}
 @bot.on(events.NewMessage(pattern="^[!?/]whisperstart$"))
 async def stsrt(event):
     await event.reply(
-            "**Heya, I am a Whisper Bot!**",
+            "**🌐 I'ᴍ ᴛʜᴇ Wʜɪsᴘᴇʀ Bᴏᴛ.
+
+💬 Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ sᴇɴᴅ sᴇᴄʀᴇᴛ ᴡʜɪsᴘᴇʀs ɪɴ ɢʀᴏᴜᴘs.
+
+🔮 I ᴡᴏʀᴋ ɪɴ ᴛʜᴇ Iɴʟɪɴᴇ ᴍᴏᴅᴇ ᴛʜᴀᴛ ᴍᴇᴀɴs ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴇᴠᴇɴ ɪғ I'ᴍ ɴᴏᴛ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
+
+💌 Iᴛ ɪs ᴠᴇʀʏ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ, sɪᴍᴘʟʏ ғᴏʀᴡᴀʀᴅ ᴀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴀ ᴜsᴇʀ ᴛᴏ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇɴᴅ ᴀ ᴡʜɪsᴘᴇʀ ᴀɴᴅ I'ʟʟ ᴅᴏ ᴛʜᴇ ʀᴇsᴛ ғᴏʀ ʏᴏᴜ.**",
             buttons=[
                 [Button.switch_inline("Go Inline", query="")]
                 ]
